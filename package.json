@@ -1,0 +1,35 @@
+{
+  "name": "browser-stock-watcher",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "多目标浏览器库存监听扩展",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daoif/browser-stock-watcher.git"
+  },
+  "homepage": "https://github.com/daoif/browser-stock-watcher",
+  "bugs": {
+    "url": "https://github.com/daoif/browser-stock-watcher/issues"
+  },
+  "scripts": {
+    "dev": "wxt",
+    "clean": "node -e \"const fs=require('fs');['.output','.wxt'].forEach((dir)=>fs.rmSync(dir,{recursive:true,force:true}))\"",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.299",
+    "@wxt-dev/module-vue": "^1.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "wxt": "^0.20.18"
+  }
+}

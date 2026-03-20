@@ -1,0 +1,14 @@
+- [README](README.md)
+- [OVERVIEW](OVERVIEW.md)
+- [STATUS](STATUS.md)
+
+- `README.md`：文档入口。
+- `OVERVIEW.md`：项目全貌、模块边界、关键数据流。
+- `STATUS.md`：当前目标、下一步、风险。
+- `PLANS/2026-03-20-browser-stock-watcher.md`：设计蓝图、任务列表、完成标准。
+- `DECISIONS/0001-finished-delivery-standard.md`：交付标准决策。
+- `DECISIONS/0002-extension-architecture.md`：扩展架构决策。
+- `DECISIONS/0003-frontend-standards-and-figma.md`：前端规范与 Figma 使用决策。
+- `DECISIONS/0004-github-release-and-repo-first-publish.md`：首发仓库、中文文档和 GitHub Release 决策。
+- `OPERATIONS/install-and-test.md`：安装、测试和打包产物说明。
+- `OPERATIONS/release-guide.md`：版本同步、tag 发布和 GitHub Release 流程。
